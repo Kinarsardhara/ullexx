@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 30% 10%; /* Dark background */
+    --foreground: 0 0% 90%; /* Light text for contrast */
+    --card: 222.2 30% 15%; /* Slightly lighter for cards */
+    --card-foreground: 0 0% 95%;
+    --popover: 222.2 30% 15%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 210 40% 60%; /* Softer blue for accents */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 222.2 20% 20%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 222.2 20% 20%;
+    --muted-foreground: 0 0% 75%;
+    --accent: 210 40% 60%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 217.2 20% 25%;
+    --input: 217.2 20% 25%;
+    --ring: 212.7 30% 50%;
+    --sidebar-background: 222.2 30% 12%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 210 40% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 30%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    /* Override variables for dark mode */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 90%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 90%;
+    --primary: 210 40% 60%;
+    --primary-foreground: 0 0% 95%;
+    --secondary: 222.2 20% 25%;
+    --secondary-foreground: 0 0% 85%;
+    --muted: 222.2 20% 25%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 210 40% 50%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 60% 30%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 222.2 20% 20%;
+    --input: 222.2 20% 20%;
+    --ring: 210 40% 60%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 210 40% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+ 
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
