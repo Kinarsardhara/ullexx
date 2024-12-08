@@ -13,12 +13,12 @@ UIlex has been built to make life easier for developers and to give back to the 
 
 ## **🌟 Features**
 
-Confirmation Dialog Box: A reusable confirmation dialog component to confirm user actions such as deletions.
-Customizable Title: The title of the dialog is customizable, allowing dynamic updates based on the context.
-Responsive UI: The dialog is designed to be responsive, ensuring it looks good on both desktop and mobile devices.
-Gradient Button: The component includes a gradient button for actions like "Delete," which triggers the confirmation dialog.
-Tailwind CSS Styling: Utilizes Tailwind CSS for modern, clean, and responsive design, making customization easy.
-Interactive Component: The dialog box is interactive, appearing on button click, and is controlled by a state (e.g., isOpen).
+- **Confirmation Dialog Box: A reusable confirmation dialog component to confirm user actions such as deletions.**
+- **Customizable Title: The title of the dialog is customizable, allowing dynamic updates based on the context.**
+- **Responsive UI: The dialog is designed to be responsive, ensuring it looks good on both desktop and mobile devices.**
+- **Gradient Button: The component includes a gradient button for actions like "Delete," which triggers the confirmation dialog.**
+- **Tailwind CSS Styling: Utilizes Tailwind CSS for modern, clean, and responsive design, making customization easy.**
+- **Interactive Component: The dialog box is interactive, appearing on button click, and is controlled by a state (e.g., isOpen).**
 
 ## 🌐 Live Demo
 
